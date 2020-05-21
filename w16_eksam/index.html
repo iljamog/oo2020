@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <table id="table1">
+        <tr>
+            <td>
+                <img src="info.png" alt="Info" style="width: 30px;height: 30px;top: 5px; position: relative;">
+                Avaldus
+                <div class="buttons">
+                    <a href="vormid/avaldus.doc" download><button>Laadi alla</button></a> 
+                    
+                    <input type="file" id="avaldusUP" hidden="hidden"/>
+
+                    <button type="submit" id="avaldusUPfake">Lae üles</button>
+
+                    <button>Täida siin</button>
+
+                    <img id="ok1" src="ok.png" alt="korras" style="width: 30px;height: 30px;top: 7px; position: relative; visibility: hidden;">
+                </div>
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="info.png" alt="Info" style="width: 30px;height: 30px;top: 5px; position: relative;">
+                Äriplaan
+                <div class="buttons" > 
+                    <a href="vormid/ariplaan.doc" download><button>Laadi alla</button></a> 
+                    
+                    <input type="file" id="ariplaanUP" hidden="hidden"/>
+
+                    <button type="button" id="ariplaanUPfake">Lae üles</button>
+
+                    <button>Täida siin</button>
+
+                    <img id="ok2" src="ok.png" alt="korras" style="width: 30px;height: 30px;top: 7px; position: relative; visibility: hidden;">
+                </div>
+            </td>
+        </tr>
+            <td><img src="info.png" alt="Info" style="width: 30px;height: 30px;top: 5px; position: relative;">
+                Finantsprognoosid
+                <div class="buttons"> 
+                    <a href="vormid/finantsprognoosid.doc" download><button>Laadi alla</button></a> 
+                    
+                    <input type="file" id="finantsUP" hidden="hidden"/>
+
+                    <button type="button" id="finantsUPfake">Lae üles</button>
+
+                    <button>Täida siin</button>
+
+                    <img id="ok3" src="ok.png" alt="korras" style="width: 30px;height: 30px;top: 7px; position: relative; visibility: hidden;">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="info.png" alt="Info" style="width: 30px;height: 30px;top: 5px; position: relative;">
+                CV
+                <div class="buttons"> 
+                    <a href="vormid/cv.doc" download><button>Laadi alla</button></a> 
+                    
+                    <input type="file" id="cvUP" hidden="hidden"/>
+
+                    <button type="button" id="cvUPfake">Lae üles</button>
+
+                    <button>Täida siin</button>
+
+                    <img id="ok4" src="ok.png" alt="korras" style="width: 30px;height: 30px;top: 7px; position: relative; visibility: hidden;">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="info.png" alt="Info" style="width: 30px;height: 30px;top: 5px; position: relative;">
+                Lisad
+                <div class="buttons"> 
+                    <button style="visibility: hidden;">Laadi alla</button></a> 
+                    
+                    <input type="file" id="lisadUP" hidden="hidden" multiple/>
+
+                    <button type="button" id="lisadUPfake">Lae üles</button>
+
+                    <button>Täida siin</button>
+
+                    <img id="ok5" src="ok.png" alt="korras" style="width: 30px;height: 30px;top: 7px; position: relative; visibility: hidden;">
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+    <script type="text/javascript" src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+</html>
